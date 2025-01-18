@@ -1,0 +1,10 @@
+flutter_native_splash:
+# Ios & Android below 12
+  color: "#ffffff"
+
+  image: assets/images/splashNutrimenu.png
+
+
+  android_12:
+    
+    
