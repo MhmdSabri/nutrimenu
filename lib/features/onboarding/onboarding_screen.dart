@@ -10,13 +10,14 @@ class OnboardingScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SafeArea(
-          child: Column(
-        children: [
-          OnboardingImage(),
-          SizedBox(height: 30.h),
-          const GetStartedButton(),
-        ],
-      )),
+        child: Column(
+          children: [
+            OnboardingImage(),
+            SizedBox(height: 30.h),
+            const GetStartedButton(),
+          ],
+        ),
+      ),
     );
   }
 }
